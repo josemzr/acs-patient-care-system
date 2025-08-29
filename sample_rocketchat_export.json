@@ -1,0 +1,105 @@
+{
+  "export_info": {
+    "source": "rocketchat",
+    "server_url": "https://demo.rocket.chat",
+    "exported_at": "2024-01-15T10:00:00Z",
+    "conversation_count": 2,
+    "tool": "RocketChat Export CLI v1.0"
+  },
+  "conversations": [
+    {
+      "source": "rocketchat",
+      "source_id": "demo_room_1",
+      "title": "Patient John - Dr. Smith",
+      "type": "1to1",
+      "participants": [
+        {
+          "id": "patient_john_123",
+          "username": "john.doe",
+          "display_name": "John Doe",
+          "email": "john.doe@example.com",
+          "role": "patient"
+        },
+        {
+          "id": "doctor_smith_456",
+          "username": "dr.smith",
+          "display_name": "Dr. Sarah Smith",
+          "email": "sarah.smith@hospital.com",
+          "role": "doctor"
+        }
+      ],
+      "messages": [
+        {
+          "id": "msg_1",
+          "content": "Hello Doctor, I've been experiencing some headaches lately.",
+          "sender_id": "patient_john_123",
+          "sender_display_name": "John Doe",
+          "created_on": "2024-01-10T09:00:00Z",
+          "type": "text"
+        },
+        {
+          "id": "msg_2",
+          "content": "I understand your concern. Can you describe the headaches in more detail?",
+          "sender_id": "doctor_smith_456",
+          "sender_display_name": "Dr. Sarah Smith",
+          "created_on": "2024-01-10T09:05:00Z",
+          "type": "text"
+        },
+        {
+          "id": "msg_3",
+          "content": "They usually occur in the morning and last for about 2 hours.",
+          "sender_id": "patient_john_123",
+          "sender_display_name": "John Doe",
+          "created_on": "2024-01-10T09:10:00Z",
+          "type": "text"
+        }
+      ],
+      "created_at": "2024-01-10T08:30:00Z",
+      "exported_at": "2024-01-15T10:00:00Z",
+      "message_count": 3
+    },
+    {
+      "source": "rocketchat",
+      "source_id": "demo_room_2",
+      "title": "Patient Jane - Dr. Johnson",
+      "type": "1to1",
+      "participants": [
+        {
+          "id": "patient_jane_789",
+          "username": "jane.wilson",
+          "display_name": "Jane Wilson",
+          "email": "jane.wilson@example.com",
+          "role": "patient"
+        },
+        {
+          "id": "doctor_johnson_012",
+          "username": "dr.johnson",
+          "display_name": "Dr. Michael Johnson",
+          "email": "michael.johnson@hospital.com",
+          "role": "doctor"
+        }
+      ],
+      "messages": [
+        {
+          "id": "msg_4",
+          "content": "I need to schedule a follow-up appointment.",
+          "sender_id": "patient_jane_789",
+          "sender_display_name": "Jane Wilson",
+          "created_on": "2024-01-12T14:30:00Z",
+          "type": "text"
+        },
+        {
+          "id": "msg_5",
+          "content": "Of course! I have availability next week. How does Tuesday at 2 PM sound?",
+          "sender_id": "doctor_johnson_012",
+          "sender_display_name": "Dr. Michael Johnson",
+          "created_on": "2024-01-12T14:35:00Z",
+          "type": "text"
+        }
+      ],
+      "created_at": "2024-01-12T14:25:00Z",
+      "exported_at": "2024-01-15T10:00:00Z",
+      "message_count": 2
+    }
+  ]
+}
